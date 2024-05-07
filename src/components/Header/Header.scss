@@ -11,12 +11,16 @@ body
 }
 .header
 {
+    background-color:  #286fb4;
+    margin: auto -16px;
+     padding: 16px 32px;
+     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     &__title
     {
-        text-align:center;
+       
         font-size:2rem;
-        background-color: #286fb4;
+       
         color:white;
-        border-bottom:2px dotted white;
+        
     }
 }

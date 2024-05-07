@@ -1,11 +1,11 @@
 import './Notes.scss';
 
-export function Notes()
+export function Notes(props)
 {
     return(
-    <div className='main'>
-         <h3 className="main__title">Title</h3>
-         <p className="main__content">Content</p>
+    <div className='note'>
+         <h3 className="note__title">{props.title}</h3>
+         <p className="note__content">{props.content}</p>
     </div>
     );
 }
